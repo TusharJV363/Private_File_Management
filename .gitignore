@@ -8,7 +8,9 @@ dist/
 .env
 /.pnp
 .pnp.js
-
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 # testing
 /coverage
 
@@ -25,3 +27,44 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# -----------------
+# Python / FastAPI
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python build
+*.egg-info/
+build/
+dist/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backend env
+backend/.env
+.env
+
+# SQLite if used
+*.db
+*.sqlite3
+
+# -----------------
+# IDE / OS
+# -----------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
